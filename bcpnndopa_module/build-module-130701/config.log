@@ -14,7 +14,7 @@ hostname = milner-login1.pdc.kth.se
 uname -m = x86_64
 uname -r = 3.0.80-0.5.1_1.0501.7664-cray_ari_s
 uname -s = Linux
-uname -v = #1 SMP Tue May 13 01:04:04 UTC 2014
+uname -v = #1 SMP Mon Dec 22 19:48:52 UTC 2014
 
 /usr/bin/uname -p = unknown
 /bin/uname -X     = unknown
@@ -28,14 +28,16 @@ uname -v = #1 SMP Tue May 13 01:04:04 UTC 2014
 /bin/universe          = unknown
 
 PATH: /pdc/vol/nest/2.2.2/bin
+PATH: /pdc/vol/music/multiconn-961/bin
+PATH: /pdc/vol/nest/2.6.0/bin
 PATH: /pdc/vol/python/2.7.6-gnu/bin
 PATH: /pdc/vol/openssl/1.0.0l/bin
-PATH: /pdc/vol/music/multiconn-961/bin
 PATH: /pdc/vol/gsl/1.16/bin
 PATH: /opt/cray/atp/1.7.1/bin
 PATH: /opt/cray/pmi/5.0.1-1.0000.9799.94.6.ari/bin
 PATH: /opt/gcc/4.9.0/bin
 PATH: /opt/cray/craype/2.04/bin
+PATH: /pdc/vol/slurm/utils/0.0/bin
 PATH: /opt/pdc.kth.se/heimdal/1.5.2/bin
 PATH: /opt/pdc.kth.se/heimdal/1.5.2/sbin
 PATH: /opt/pdc.kth.se/openafs/1.6.6-3.0.80-0.5.1_1.0501.7664-cray_ari_s/bin

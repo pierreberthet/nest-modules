@@ -26,6 +26,7 @@ BCPNNDopaCommonProperties::BCPNNDopaCommonProperties() :
    b_(0.0),
    dopamine_modulated_(true),
    complementary_(true),
+   positive_(false),
    epsilon_(0.001),
    fmax_(50.0),
    gain_(1.0),
@@ -62,6 +63,7 @@ void BCPNNDopaCommonProperties::get_status(DictionaryDatum & d) const
 	def<nest::double_t>(d, "b", b_);
 	def<bool>(d, "dopamine_modulated", dopamine_modulated_);
 	def<bool>(d, "complementary", complementary_);
+	def<bool>(d, "postive_only", positive_);
 	def<nest::double_t>(d, "epsilon", epsilon_);
 	def<nest::double_t>(d, "fmax", fmax_);
 	def<nest::double_t>(d, "gain", gain_);
@@ -100,6 +102,7 @@ void BCPNNDopaCommonProperties::set_status(const DictionaryDatum & d,
   updateValue<nest::double_t>(d, "b", b_);
   updateValue<bool>(d, "dopamine_modulated", dopamine_modulated_);
   updateValue<bool>(d, "complementary", complementary_);
+  updateValue<bool>(d, "positive_only", positive_);
   updateValue<nest::double_t>(d, "epsilon", epsilon_);
   updateValue<nest::double_t>(d, "fmax", fmax_);
   updateValue<nest::double_t>(d, "gain", gain_);
@@ -261,6 +264,7 @@ BCPNNDopaConnection::BCPNNDopaConnection() :
 	  if ( d->known("ns")       ||
 		  d->known("dopamine_modulateds")   ||
 		  d->known("complementarys")   ||
+		  d->known("poisitve_onlys")   ||
 		  d->known("epsilons")  ||
 		  d->known("fmaxs")     ||
 		  d->known("gains")     ||

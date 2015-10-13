@@ -104,6 +104,7 @@ private:
 	nest::double_t b_;
 	bool dopamine_modulated_;
 	bool complementary_;
+	bool positive_;
 	bool sigmoid_;
 	
     nest::double_t epsilon_;
@@ -364,7 +365,7 @@ inline void BCPNNDopaConnection::progress_state_variables(
 	    	eij_c_+= (zi_ * zj_c_ - eij_c_) * resolution / cp.taue_;
         }
 		if (cp.complementary_) {
-            if (cp.reverse_*k_>=0) {
+            if (cp.reverse_*(std::pow(k_, cp.k_pow_))>=0) {
 			    ej=ej_;
 			    eij=eij_;
 		    } else {
@@ -372,7 +373,7 @@ inline void BCPNNDopaConnection::progress_state_variables(
 			    eij=eij_c_;
 		    }
         } else {
-            if (cp.reverse_*k_>0) {
+            if (cp.reverse_*(std::pow(k_, cp.k_pow_))>=0) {
 			    ej=ej_;
 			    eij=eij_;
             }
@@ -388,7 +389,8 @@ inline void BCPNNDopaConnection::progress_state_variables(
 		    pj_ += k_filtered_*(ej - pj_) * resolution / cp.taup_;
 		    pij_+= k_filtered_*(eij - pij_) * resolution / cp.taup_;
         } else {
-            if (cp.reverse_*k_>0) {
+            if (cp.reverse_*(std::pow(k_, cp.k_pow_))>0) {
+            /*if (cp.reverse_*k_>0) {*/
 		        pi_ += k_filtered_*(ei_ - pi_) * resolution / cp.taup_;
 		        pj_ += k_filtered_*(ej - pj_) * resolution / cp.taup_;
 		        pij_+= k_filtered_*(eij - pij_) * resolution / cp.taup_;
@@ -404,8 +406,13 @@ inline void BCPNNDopaConnection::progress_state_variables(
 
 	nest::double_t w =pij_ / (pi_ * pj_);
 
-	weight_ = gain_ * ((w<0) ? std::log(0.0001) : std::log(w));
+    if (cp.positive_) {
+	    weight_ = gain_ * ((w<0) ? std::log(0.0001) : std::log(w));
+        weight_ = ((weight_<0) ? 0.0 : weight_);
+    } else {
+	    weight_ = gain_ * ((w<0) ? std::log(0.0001) : std::log(w));
 
+    }
 	/*Reset variables*/
 	post_spiketimes_.clear();
 	BUFFER_=20;

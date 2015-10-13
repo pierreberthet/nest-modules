@@ -8,7 +8,7 @@ libtool: install: /usr/bin/install -c .libs/ml_module.lai /cfs/milner/scratch/b/
 libtool: install: /usr/bin/install -c .libs/ml_module.a /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/lib/nest/ml_module.a
 libtool: install: chmod 644 /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/lib/nest/ml_module.a
 libtool: install: ranlib /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/lib/nest/ml_module.a
-libtool: finish: PATH="/pdc/vol/nest/2.2.2/bin:/pdc/vol/python/2.7.6-gnu/bin:/pdc/vol/openssl/1.0.0l/bin:/pdc/vol/music/multiconn-961/bin:/pdc/vol/gsl/1.16/bin:/opt/cray/atp/1.7.1/bin:/opt/cray/pmi/5.0.1-1.0000.9799.94.6.ari/bin:/opt/gcc/4.9.0/bin:/opt/cray/craype/2.04/bin:/opt/pdc.kth.se/heimdal/1.5.2/bin:/opt/pdc.kth.se/heimdal/1.5.2/sbin:/opt/pdc.kth.se/openafs/1.6.6-3.0.80-0.5.1_1.0501.7664-cray_ari_s/bin:/opt/pdc.kth.se/openafs/1.6.6-3.0.80-0.5.1_1.0501.7664-cray_ari_s/sbin:/opt/pdc.kth.se/openssh/5.3p1-with-pam-gsskex-20100124/bin:/opt/slurm/munge/bin:/opt/slurm/default/bin:/opt/cray/llm/default/bin:/opt/cray/llm/default/etc:/opt/cray/xpmem/0.1-2.0501.48424.3.3.ari/bin:/opt/cray/dmapp/7.0.1-1.0501.8315.8.4.ari/bin:/opt/cray/ugni/5.0-1.0501.8253.10.22.ari/bin:/opt/cray/udreg/2.3.2-1.0501.7914.1.13.ari/bin:/opt/cray/lustre-cray_ari_s/2.4_3.0.80_0.5.1_1.0501.7664.12.1-1.0501.14255.11.3/sbin:/opt/cray/lustre-cray_ari_s/2.4_3.0.80_0.5.1_1.0501.7664.12.1-1.0501.14255.11.3/bin:/opt/cray/MySQL/5.0.64-1.0000.7096.23.2/sbin:/opt/cray/MySQL/5.0.64-1.0000.7096.23.2/bin:/opt/cray/alps/5.1.1-2.0501.8471.1.1.ari/sbin:/opt/cray/alps/5.1.1-2.0501.8471.1.1.ari/bin:/opt/cray/sdb/1.0-1.0501.48084.4.48.ari/bin:/opt/cray/nodestat/2.2-1.0501.47138.1.78.ari/bin:/opt/modules/3.2.6.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/X11R6/bin:/usr/games:/usr/lib64/jvm/jre/bin:/usr/lib/mit/bin:/usr/lib/mit/sbin:/usr/lib/qt3/bin:/opt/cray/bin:/sbin" ldconfig -n /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/lib/nest
+libtool: finish: PATH="/pdc/vol/nest/2.2.2/bin:/pdc/vol/music/multiconn-961/bin:/pdc/vol/nest/2.6.0/bin:/pdc/vol/python/2.7.6-gnu/bin:/pdc/vol/openssl/1.0.0l/bin:/pdc/vol/gsl/1.16/bin:/opt/cray/atp/1.7.1/bin:/opt/cray/pmi/5.0.1-1.0000.9799.94.6.ari/bin:/opt/gcc/4.9.0/bin:/opt/cray/craype/2.04/bin:/pdc/vol/slurm/utils/0.0/bin:/opt/pdc.kth.se/heimdal/1.5.2/bin:/opt/pdc.kth.se/heimdal/1.5.2/sbin:/opt/pdc.kth.se/openafs/1.6.6-3.0.80-0.5.1_1.0501.7664-cray_ari_s/bin:/opt/pdc.kth.se/openafs/1.6.6-3.0.80-0.5.1_1.0501.7664-cray_ari_s/sbin:/opt/pdc.kth.se/openssh/5.3p1-with-pam-gsskex-20100124/bin:/opt/slurm/munge/bin:/opt/slurm/default/bin:/opt/cray/llm/default/bin:/opt/cray/llm/default/etc:/opt/cray/xpmem/0.1-2.0501.48424.3.3.ari/bin:/opt/cray/dmapp/7.0.1-1.0501.8315.8.4.ari/bin:/opt/cray/ugni/5.0-1.0501.8253.10.22.ari/bin:/opt/cray/udreg/2.3.2-1.0501.7914.1.13.ari/bin:/opt/cray/lustre-cray_ari_s/2.4_3.0.80_0.5.1_1.0501.7664.12.1-1.0501.14255.11.3/sbin:/opt/cray/lustre-cray_ari_s/2.4_3.0.80_0.5.1_1.0501.7664.12.1-1.0501.14255.11.3/bin:/opt/cray/MySQL/5.0.64-1.0000.7096.23.2/sbin:/opt/cray/MySQL/5.0.64-1.0000.7096.23.2/bin:/opt/cray/alps/5.1.1-2.0501.8471.1.1.ari/sbin:/opt/cray/alps/5.1.1-2.0501.8471.1.1.ari/bin:/opt/cray/sdb/1.0-1.0501.48084.4.48.ari/bin:/opt/cray/nodestat/2.2-1.0501.47138.1.78.ari/bin:/opt/modules/3.2.6.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/X11R6/bin:/usr/games:/usr/lib64/jvm/jre/bin:/usr/lib/mit/bin:/usr/lib/mit/sbin:/usr/lib/qt3/bin:/opt/cray/bin:/sbin" ldconfig -n /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/lib/nest
 ----------------------------------------------------------------------
 Libraries have been installed in:
    /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/lib/nest
@@ -35,7 +35,7 @@ libtool: install: /usr/bin/install -c .libs/libml_module.lai /cfs/milner/scratch
 libtool: install: /usr/bin/install -c .libs/libml_module.a /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/lib/nest/libml_module.a
 libtool: install: chmod 644 /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/lib/nest/libml_module.a
 libtool: install: ranlib /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/lib/nest/libml_module.a
-libtool: finish: PATH="/pdc/vol/nest/2.2.2/bin:/pdc/vol/python/2.7.6-gnu/bin:/pdc/vol/openssl/1.0.0l/bin:/pdc/vol/music/multiconn-961/bin:/pdc/vol/gsl/1.16/bin:/opt/cray/atp/1.7.1/bin:/opt/cray/pmi/5.0.1-1.0000.9799.94.6.ari/bin:/opt/gcc/4.9.0/bin:/opt/cray/craype/2.04/bin:/opt/pdc.kth.se/heimdal/1.5.2/bin:/opt/pdc.kth.se/heimdal/1.5.2/sbin:/opt/pdc.kth.se/openafs/1.6.6-3.0.80-0.5.1_1.0501.7664-cray_ari_s/bin:/opt/pdc.kth.se/openafs/1.6.6-3.0.80-0.5.1_1.0501.7664-cray_ari_s/sbin:/opt/pdc.kth.se/openssh/5.3p1-with-pam-gsskex-20100124/bin:/opt/slurm/munge/bin:/opt/slurm/default/bin:/opt/cray/llm/default/bin:/opt/cray/llm/default/etc:/opt/cray/xpmem/0.1-2.0501.48424.3.3.ari/bin:/opt/cray/dmapp/7.0.1-1.0501.8315.8.4.ari/bin:/opt/cray/ugni/5.0-1.0501.8253.10.22.ari/bin:/opt/cray/udreg/2.3.2-1.0501.7914.1.13.ari/bin:/opt/cray/lustre-cray_ari_s/2.4_3.0.80_0.5.1_1.0501.7664.12.1-1.0501.14255.11.3/sbin:/opt/cray/lustre-cray_ari_s/2.4_3.0.80_0.5.1_1.0501.7664.12.1-1.0501.14255.11.3/bin:/opt/cray/MySQL/5.0.64-1.0000.7096.23.2/sbin:/opt/cray/MySQL/5.0.64-1.0000.7096.23.2/bin:/opt/cray/alps/5.1.1-2.0501.8471.1.1.ari/sbin:/opt/cray/alps/5.1.1-2.0501.8471.1.1.ari/bin:/opt/cray/sdb/1.0-1.0501.48084.4.48.ari/bin:/opt/cray/nodestat/2.2-1.0501.47138.1.78.ari/bin:/opt/modules/3.2.6.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/X11R6/bin:/usr/games:/usr/lib64/jvm/jre/bin:/usr/lib/mit/bin:/usr/lib/mit/sbin:/usr/lib/qt3/bin:/opt/cray/bin:/sbin" ldconfig -n /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/lib/nest
+libtool: finish: PATH="/pdc/vol/nest/2.2.2/bin:/pdc/vol/music/multiconn-961/bin:/pdc/vol/nest/2.6.0/bin:/pdc/vol/python/2.7.6-gnu/bin:/pdc/vol/openssl/1.0.0l/bin:/pdc/vol/gsl/1.16/bin:/opt/cray/atp/1.7.1/bin:/opt/cray/pmi/5.0.1-1.0000.9799.94.6.ari/bin:/opt/gcc/4.9.0/bin:/opt/cray/craype/2.04/bin:/pdc/vol/slurm/utils/0.0/bin:/opt/pdc.kth.se/heimdal/1.5.2/bin:/opt/pdc.kth.se/heimdal/1.5.2/sbin:/opt/pdc.kth.se/openafs/1.6.6-3.0.80-0.5.1_1.0501.7664-cray_ari_s/bin:/opt/pdc.kth.se/openafs/1.6.6-3.0.80-0.5.1_1.0501.7664-cray_ari_s/sbin:/opt/pdc.kth.se/openssh/5.3p1-with-pam-gsskex-20100124/bin:/opt/slurm/munge/bin:/opt/slurm/default/bin:/opt/cray/llm/default/bin:/opt/cray/llm/default/etc:/opt/cray/xpmem/0.1-2.0501.48424.3.3.ari/bin:/opt/cray/dmapp/7.0.1-1.0501.8315.8.4.ari/bin:/opt/cray/ugni/5.0-1.0501.8253.10.22.ari/bin:/opt/cray/udreg/2.3.2-1.0501.7914.1.13.ari/bin:/opt/cray/lustre-cray_ari_s/2.4_3.0.80_0.5.1_1.0501.7664.12.1-1.0501.14255.11.3/sbin:/opt/cray/lustre-cray_ari_s/2.4_3.0.80_0.5.1_1.0501.7664.12.1-1.0501.14255.11.3/bin:/opt/cray/MySQL/5.0.64-1.0000.7096.23.2/sbin:/opt/cray/MySQL/5.0.64-1.0000.7096.23.2/bin:/opt/cray/alps/5.1.1-2.0501.8471.1.1.ari/sbin:/opt/cray/alps/5.1.1-2.0501.8471.1.1.ari/bin:/opt/cray/sdb/1.0-1.0501.48084.4.48.ari/bin:/opt/cray/nodestat/2.2-1.0501.47138.1.78.ari/bin:/opt/modules/3.2.6.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/X11R6/bin:/usr/games:/usr/lib64/jvm/jre/bin:/usr/lib/mit/bin:/usr/lib/mit/sbin:/usr/lib/qt3/bin:/opt/cray/bin:/sbin" ldconfig -n /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/lib/nest
 ----------------------------------------------------------------------
 Libraries have been installed in:
    /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/lib/nest
@@ -67,7 +67,7 @@ libtool: install: /usr/bin/install -c .libs/ml_module.lai /cfs/milner/scratch/b/
 libtool: install: /usr/bin/install -c .libs/ml_module.a /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/lib/nest/ml_module.a
 libtool: install: chmod 644 /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/lib/nest/ml_module.a
 libtool: install: ranlib /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/lib/nest/ml_module.a
-libtool: finish: PATH="/pdc/vol/nest/2.2.2/bin:/pdc/vol/python/2.7.6-gnu/bin:/pdc/vol/openssl/1.0.0l/bin:/pdc/vol/music/multiconn-961/bin:/pdc/vol/gsl/1.16/bin:/opt/cray/atp/1.7.1/bin:/opt/cray/pmi/5.0.1-1.0000.9799.94.6.ari/bin:/opt/gcc/4.9.0/bin:/opt/cray/craype/2.04/bin:/opt/pdc.kth.se/heimdal/1.5.2/bin:/opt/pdc.kth.se/heimdal/1.5.2/sbin:/opt/pdc.kth.se/openafs/1.6.6-3.0.80-0.5.1_1.0501.7664-cray_ari_s/bin:/opt/pdc.kth.se/openafs/1.6.6-3.0.80-0.5.1_1.0501.7664-cray_ari_s/sbin:/opt/pdc.kth.se/openssh/5.3p1-with-pam-gsskex-20100124/bin:/opt/slurm/munge/bin:/opt/slurm/default/bin:/opt/cray/llm/default/bin:/opt/cray/llm/default/etc:/opt/cray/xpmem/0.1-2.0501.48424.3.3.ari/bin:/opt/cray/dmapp/7.0.1-1.0501.8315.8.4.ari/bin:/opt/cray/ugni/5.0-1.0501.8253.10.22.ari/bin:/opt/cray/udreg/2.3.2-1.0501.7914.1.13.ari/bin:/opt/cray/lustre-cray_ari_s/2.4_3.0.80_0.5.1_1.0501.7664.12.1-1.0501.14255.11.3/sbin:/opt/cray/lustre-cray_ari_s/2.4_3.0.80_0.5.1_1.0501.7664.12.1-1.0501.14255.11.3/bin:/opt/cray/MySQL/5.0.64-1.0000.7096.23.2/sbin:/opt/cray/MySQL/5.0.64-1.0000.7096.23.2/bin:/opt/cray/alps/5.1.1-2.0501.8471.1.1.ari/sbin:/opt/cray/alps/5.1.1-2.0501.8471.1.1.ari/bin:/opt/cray/sdb/1.0-1.0501.48084.4.48.ari/bin:/opt/cray/nodestat/2.2-1.0501.47138.1.78.ari/bin:/opt/modules/3.2.6.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/X11R6/bin:/usr/games:/usr/lib64/jvm/jre/bin:/usr/lib/mit/bin:/usr/lib/mit/sbin:/usr/lib/qt3/bin:/opt/cray/bin:/sbin" ldconfig -n /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/lib/nest
+libtool: finish: PATH="/pdc/vol/nest/2.2.2/bin:/pdc/vol/music/multiconn-961/bin:/pdc/vol/nest/2.6.0/bin:/pdc/vol/python/2.7.6-gnu/bin:/pdc/vol/openssl/1.0.0l/bin:/pdc/vol/gsl/1.16/bin:/opt/cray/atp/1.7.1/bin:/opt/cray/pmi/5.0.1-1.0000.9799.94.6.ari/bin:/opt/gcc/4.9.0/bin:/opt/cray/craype/2.04/bin:/pdc/vol/slurm/utils/0.0/bin:/opt/pdc.kth.se/heimdal/1.5.2/bin:/opt/pdc.kth.se/heimdal/1.5.2/sbin:/opt/pdc.kth.se/openafs/1.6.6-3.0.80-0.5.1_1.0501.7664-cray_ari_s/bin:/opt/pdc.kth.se/openafs/1.6.6-3.0.80-0.5.1_1.0501.7664-cray_ari_s/sbin:/opt/pdc.kth.se/openssh/5.3p1-with-pam-gsskex-20100124/bin:/opt/slurm/munge/bin:/opt/slurm/default/bin:/opt/cray/llm/default/bin:/opt/cray/llm/default/etc:/opt/cray/xpmem/0.1-2.0501.48424.3.3.ari/bin:/opt/cray/dmapp/7.0.1-1.0501.8315.8.4.ari/bin:/opt/cray/ugni/5.0-1.0501.8253.10.22.ari/bin:/opt/cray/udreg/2.3.2-1.0501.7914.1.13.ari/bin:/opt/cray/lustre-cray_ari_s/2.4_3.0.80_0.5.1_1.0501.7664.12.1-1.0501.14255.11.3/sbin:/opt/cray/lustre-cray_ari_s/2.4_3.0.80_0.5.1_1.0501.7664.12.1-1.0501.14255.11.3/bin:/opt/cray/MySQL/5.0.64-1.0000.7096.23.2/sbin:/opt/cray/MySQL/5.0.64-1.0000.7096.23.2/bin:/opt/cray/alps/5.1.1-2.0501.8471.1.1.ari/sbin:/opt/cray/alps/5.1.1-2.0501.8471.1.1.ari/bin:/opt/cray/sdb/1.0-1.0501.48084.4.48.ari/bin:/opt/cray/nodestat/2.2-1.0501.47138.1.78.ari/bin:/opt/modules/3.2.6.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/X11R6/bin:/usr/games:/usr/lib64/jvm/jre/bin:/usr/lib/mit/bin:/usr/lib/mit/sbin:/usr/lib/qt3/bin:/opt/cray/bin:/sbin" ldconfig -n /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/lib/nest
 ----------------------------------------------------------------------
 Libraries have been installed in:
    /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/lib/nest
@@ -94,7 +94,7 @@ libtool: install: /usr/bin/install -c .libs/libml_module.lai /cfs/milner/scratch
 libtool: install: /usr/bin/install -c .libs/libml_module.a /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/lib/nest/libml_module.a
 libtool: install: chmod 644 /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/lib/nest/libml_module.a
 libtool: install: ranlib /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/lib/nest/libml_module.a
-libtool: finish: PATH="/pdc/vol/nest/2.2.2/bin:/pdc/vol/python/2.7.6-gnu/bin:/pdc/vol/openssl/1.0.0l/bin:/pdc/vol/music/multiconn-961/bin:/pdc/vol/gsl/1.16/bin:/opt/cray/atp/1.7.1/bin:/opt/cray/pmi/5.0.1-1.0000.9799.94.6.ari/bin:/opt/gcc/4.9.0/bin:/opt/cray/craype/2.04/bin:/opt/pdc.kth.se/heimdal/1.5.2/bin:/opt/pdc.kth.se/heimdal/1.5.2/sbin:/opt/pdc.kth.se/openafs/1.6.6-3.0.80-0.5.1_1.0501.7664-cray_ari_s/bin:/opt/pdc.kth.se/openafs/1.6.6-3.0.80-0.5.1_1.0501.7664-cray_ari_s/sbin:/opt/pdc.kth.se/openssh/5.3p1-with-pam-gsskex-20100124/bin:/opt/slurm/munge/bin:/opt/slurm/default/bin:/opt/cray/llm/default/bin:/opt/cray/llm/default/etc:/opt/cray/xpmem/0.1-2.0501.48424.3.3.ari/bin:/opt/cray/dmapp/7.0.1-1.0501.8315.8.4.ari/bin:/opt/cray/ugni/5.0-1.0501.8253.10.22.ari/bin:/opt/cray/udreg/2.3.2-1.0501.7914.1.13.ari/bin:/opt/cray/lustre-cray_ari_s/2.4_3.0.80_0.5.1_1.0501.7664.12.1-1.0501.14255.11.3/sbin:/opt/cray/lustre-cray_ari_s/2.4_3.0.80_0.5.1_1.0501.7664.12.1-1.0501.14255.11.3/bin:/opt/cray/MySQL/5.0.64-1.0000.7096.23.2/sbin:/opt/cray/MySQL/5.0.64-1.0000.7096.23.2/bin:/opt/cray/alps/5.1.1-2.0501.8471.1.1.ari/sbin:/opt/cray/alps/5.1.1-2.0501.8471.1.1.ari/bin:/opt/cray/sdb/1.0-1.0501.48084.4.48.ari/bin:/opt/cray/nodestat/2.2-1.0501.47138.1.78.ari/bin:/opt/modules/3.2.6.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/X11R6/bin:/usr/games:/usr/lib64/jvm/jre/bin:/usr/lib/mit/bin:/usr/lib/mit/sbin:/usr/lib/qt3/bin:/opt/cray/bin:/sbin" ldconfig -n /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/lib/nest
+libtool: finish: PATH="/pdc/vol/nest/2.2.2/bin:/pdc/vol/music/multiconn-961/bin:/pdc/vol/nest/2.6.0/bin:/pdc/vol/python/2.7.6-gnu/bin:/pdc/vol/openssl/1.0.0l/bin:/pdc/vol/gsl/1.16/bin:/opt/cray/atp/1.7.1/bin:/opt/cray/pmi/5.0.1-1.0000.9799.94.6.ari/bin:/opt/gcc/4.9.0/bin:/opt/cray/craype/2.04/bin:/pdc/vol/slurm/utils/0.0/bin:/opt/pdc.kth.se/heimdal/1.5.2/bin:/opt/pdc.kth.se/heimdal/1.5.2/sbin:/opt/pdc.kth.se/openafs/1.6.6-3.0.80-0.5.1_1.0501.7664-cray_ari_s/bin:/opt/pdc.kth.se/openafs/1.6.6-3.0.80-0.5.1_1.0501.7664-cray_ari_s/sbin:/opt/pdc.kth.se/openssh/5.3p1-with-pam-gsskex-20100124/bin:/opt/slurm/munge/bin:/opt/slurm/default/bin:/opt/cray/llm/default/bin:/opt/cray/llm/default/etc:/opt/cray/xpmem/0.1-2.0501.48424.3.3.ari/bin:/opt/cray/dmapp/7.0.1-1.0501.8315.8.4.ari/bin:/opt/cray/ugni/5.0-1.0501.8253.10.22.ari/bin:/opt/cray/udreg/2.3.2-1.0501.7914.1.13.ari/bin:/opt/cray/lustre-cray_ari_s/2.4_3.0.80_0.5.1_1.0501.7664.12.1-1.0501.14255.11.3/sbin:/opt/cray/lustre-cray_ari_s/2.4_3.0.80_0.5.1_1.0501.7664.12.1-1.0501.14255.11.3/bin:/opt/cray/MySQL/5.0.64-1.0000.7096.23.2/sbin:/opt/cray/MySQL/5.0.64-1.0000.7096.23.2/bin:/opt/cray/alps/5.1.1-2.0501.8471.1.1.ari/sbin:/opt/cray/alps/5.1.1-2.0501.8471.1.1.ari/bin:/opt/cray/sdb/1.0-1.0501.48084.4.48.ari/bin:/opt/cray/nodestat/2.2-1.0501.47138.1.78.ari/bin:/opt/modules/3.2.6.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/X11R6/bin:/usr/games:/usr/lib64/jvm/jre/bin:/usr/lib/mit/bin:/usr/lib/mit/sbin:/usr/lib/qt3/bin:/opt/cray/bin:/sbin" ldconfig -n /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/lib/nest
 ----------------------------------------------------------------------
 Libraries have been installed in:
    /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/lib/nest
@@ -119,99 +119,107 @@ Generating on-line help pages for NEST ...
 chmod: changing permissions of `/pdc/vol/nest/2.2.2/share/doc/nest/help/sli': Operation not permitted
 chmod: changing permissions of `/pdc/vol/nest/2.2.2/share/doc/nest/help/cc': Operation not permitted
 
-Jul 09 17:21:25 :makeallhelp [Info]: 
+Jun 04 12:01:02 :makeallhelp [Info]: 
     Processing directory 
     /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/bootstrap-module-130701
 
-Jul 09 17:21:25 :makeallhelp [Error]: 
+Jun 04 12:01:02 :makeallhelp [Error]: 
     Documentation error in file 
     /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/bootstrap-module-130701/BAKbcpnn_connection_dopamine.h
 
-Jul 09 17:21:25 file [Error]: FileOpenError
+Jun 04 12:01:02 file [Error]: FileOpenError
     Could not open the following file for writing: 
     "/pdc/vol/nest/2.2.2/share/doc/nest/help/cc/bcpnn_synapse.hlp".
 
-Jul 09 17:21:25 :makeallhelp [Error]: 
+Jun 04 12:01:02 :makeallhelp [Error]: 
     Documentation error in file 
     /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/bootstrap-module-130701/bcpnn_connection_dopamine.h
 
-Jul 09 17:21:25 file [Error]: FileOpenError
+Jun 04 12:01:02 file [Error]: FileOpenError
     Could not open the following file for writing: 
     "/pdc/vol/nest/2.2.2/share/doc/nest/help/cc/bcpnn_synapse.hlp".
 
-Jul 09 17:21:25 :makeallhelp [Error]: 
+Jun 04 12:01:02 :makeallhelp [Error]: 
     Documentation error in file 
     /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/bootstrap-module-130701/bcpnn_connection.h
 
-Jul 09 17:21:25 file [Error]: FileOpenError
+Jun 04 12:01:02 file [Error]: FileOpenError
     Could not open the following file for writing: 
     "/pdc/vol/nest/2.2.2/share/doc/nest/help/cc/bcpnn_synapse.hlp".
 
-Jul 09 17:21:25 :makeallhelp [Error]: 
+Jun 04 12:01:02 :makeallhelp [Error]: 
+    Documentation error in file 
+    /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/bootstrap-module-130701/broken_bcpnn_connection_dopamine.h
+
+Jun 04 12:01:02 file [Error]: FileOpenError
+    Could not open the following file for writing: 
+    "/pdc/vol/nest/2.2.2/share/doc/nest/help/cc/bcpnn_synapse.hlp".
+
+Jun 04 12:01:02 :makeallhelp [Error]: 
     Documentation error in file 
     /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/bootstrap-module-130701/drop_odd_spike_connection.h
 
-Jul 09 17:21:25 file [Error]: FileOpenError
+Jun 04 12:01:02 file [Error]: FileOpenError
     Could not open the following file for writing: 
     "/pdc/vol/nest/2.2.2/share/doc/nest/help/cc/drop_odd_spike.hlp".
 
-Jul 09 17:21:25 :makeallhelp [Error]: 
+Jun 04 12:01:02 :makeallhelp [Error]: 
     Documentation error in file 
     /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/bootstrap-module-130701/iaf_cond_alpha_bias.h
 
-Jul 09 17:21:25 file [Error]: FileOpenError
+Jun 04 12:01:02 file [Error]: FileOpenError
     Could not open the following file for writing: 
     "/pdc/vol/nest/2.2.2/share/doc/nest/help/cc/iaf_cond_alpha_bias.hlp".
 
-Jul 09 17:21:25 :makeallhelp [Error]: 
+Jun 04 12:01:02 :makeallhelp [Error]: 
     Documentation error in file 
     /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/bootstrap-module-130701/izhik_cond_exp.h
 
-Jul 09 17:21:25 file [Error]: FileOpenError
+Jun 04 12:01:02 file [Error]: FileOpenError
     Could not open the following file for writing: 
     "/pdc/vol/nest/2.2.2/share/doc/nest/help/cc/izhik_cond_exp.hlp".
 
-Jul 09 17:21:25 :makeallhelp [Error]: 
+Jun 04 12:01:02 :makeallhelp [Error]: 
     Documentation error in file 
     /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/bootstrap-module-130701/ml_module.cpp
 
-Jul 09 17:21:25 file [Error]: FileOpenError
+Jun 04 12:01:02 file [Error]: FileOpenError
     Could not open the following file for writing: 
     "/pdc/vol/nest/2.2.2/share/doc/nest/help/cc/StepPatternConnect.hlp".
 
-Jul 09 17:21:25 :makeallhelp [Error]: 
+Jun 04 12:01:02 :makeallhelp [Error]: 
     Documentation error in file 
     /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/bootstrap-module-130701/my_aeif_cond_exp.h
 
-Jul 09 17:21:25 file [Error]: FileOpenError
+Jun 04 12:01:02 file [Error]: FileOpenError
     Could not open the following file for writing: 
     "/pdc/vol/nest/2.2.2/share/doc/nest/help/cc/my_aeif_cond_exp.hlp".
 
-Jul 09 17:21:25 :makeallhelp [Error]: 
+Jun 04 12:01:02 :makeallhelp [Error]: 
     Documentation error in file 
     /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/bootstrap-module-130701/my_volume_transmitter.h
 
-Jul 09 17:21:25 file [Error]: FileOpenError
+Jun 04 12:01:02 file [Error]: FileOpenError
     Could not open the following file for writing: 
     "/pdc/vol/nest/2.2.2/share/doc/nest/help/cc/volume_transmitter.hlp".
 
-Jul 09 17:21:25 :makeallhelp [Error]: 
+Jun 04 12:01:02 :makeallhelp [Error]: 
     Documentation error in file 
     /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/bootstrap-module-130701/pif_psc_alpha.h
 
-Jul 09 17:21:25 file [Error]: FileOpenError
+Jun 04 12:01:02 file [Error]: FileOpenError
     Could not open the following file for writing: 
     "/pdc/vol/nest/2.2.2/share/doc/nest/help/cc/pif_psc_alpha.hlp".
 
-Jul 09 17:21:25 :makeallhelp [Info]: 
+Jun 04 12:01:02 :makeallhelp [Info]: 
     Processing directory 
     /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/bootstrap-module-130701/sli
 
-Jul 09 17:21:26 :makehelpindex [Error]: 
+Jun 04 12:01:03 :makehelpindex [Error]: 
     Could not write to index file: 
     /pdc/vol/nest/2.2.2/share/doc/nest/help/helpindex.hlp
 
-Jul 09 17:21:26 :makehelpindex [Error]: IOError
+Jun 04 12:01:03 :makehelpindex [Error]: IOError
     Could not open the following file for writing: 
     "/pdc/vol/nest/2.2.2/share/doc/nest/help/helpindex.hlp".
 gmake[2]: *** [install-slidoc] Error 126

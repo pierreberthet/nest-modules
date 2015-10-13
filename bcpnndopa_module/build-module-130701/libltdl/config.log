@@ -14,7 +14,7 @@ hostname = milner-login1.pdc.kth.se
 uname -m = x86_64
 uname -r = 3.0.80-0.5.1_1.0501.7664-cray_ari_s
 uname -s = Linux
-uname -v = #1 SMP Tue May 13 01:04:04 UTC 2014
+uname -v = #1 SMP Mon Dec 22 19:48:52 UTC 2014
 
 /usr/bin/uname -p = unknown
 /bin/uname -X     = unknown
@@ -28,14 +28,16 @@ uname -v = #1 SMP Tue May 13 01:04:04 UTC 2014
 /bin/universe          = unknown
 
 PATH: /pdc/vol/nest/2.2.2/bin
+PATH: /pdc/vol/music/multiconn-961/bin
+PATH: /pdc/vol/nest/2.6.0/bin
 PATH: /pdc/vol/python/2.7.6-gnu/bin
 PATH: /pdc/vol/openssl/1.0.0l/bin
-PATH: /pdc/vol/music/multiconn-961/bin
 PATH: /pdc/vol/gsl/1.16/bin
 PATH: /opt/cray/atp/1.7.1/bin
 PATH: /opt/cray/pmi/5.0.1-1.0000.9799.94.6.ari/bin
 PATH: /opt/gcc/4.9.0/bin
 PATH: /opt/cray/craype/2.04/bin
+PATH: /pdc/vol/slurm/utils/0.0/bin
 PATH: /opt/pdc.kth.se/heimdal/1.5.2/bin
 PATH: /opt/pdc.kth.se/heimdal/1.5.2/sbin
 PATH: /opt/pdc.kth.se/openafs/1.6.6-3.0.80-0.5.1_1.0501.7664-cray_ari_s/bin
@@ -328,7 +330,7 @@ configure:10425: checking how to hardcode library paths into programs
 configure:10450: result: immediate
 configure:10573: checking for shl_load
 configure:10629: gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/cczLwbwQ.o: In function `main':
+/tmp/ccVraOiu.o: In function `main':
 /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/build-module-130701/libltdl/conftest.c:56: undefined reference to `shl_load'
 collect2: error: ld returned 1 exit status
 configure:10636: $? = 1
@@ -438,7 +440,7 @@ configure: failed program was:
 configure:10724: result: no
 configure:10729: checking for dlopen
 configure:10785: gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/ccfnLO02.o: In function `main':
+/tmp/cc8EoRKT.o: In function `main':
 /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/build-module-130701/libltdl/conftest.c:56: undefined reference to `dlopen'
 collect2: error: ld returned 1 exit status
 configure:10792: $? = 1
@@ -513,7 +515,7 @@ configure:11130: $? = 0
 configure:11148: result: yes
 configure:11153: checking whether a statically linked program can dlopen itself
 configure:11223: gcc -o conftest -g -O2  -DHAVE_DLFCN_H  -Wl,--export-dynamic -static conftest.c -ldl  >&5
-/tmp/ccXuaAAb.o: In function `main':
+/tmp/ccg8dbJn.o: In function `main':
 /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/build-module-130701/libltdl/configure:11207: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
 /usr/bin/ld: dynamic STT_GNU_IFUNC symbol `strcmp' with pointer equality in `/usr/lib/../lib64/libc.a(strcmp.o)' can not be used when making an executable; recompile with -fPIE and relink with -pie
 collect2: error: ld returned 1 exit status
@@ -535,7 +537,7 @@ configure:11428: checking for the default library search path
 configure:11435: result: /lib /usr/lib /usr/X11R6/lib64/Xaw3d /usr/X11R6/lib64 /usr/lib64/Xaw3d /usr/X11R6/lib/Xaw3d /usr/X11R6/lib /usr/lib/Xaw3d /usr/x86_64-suse-linux/lib /usr/local/lib /opt/kde3/lib /usr/local/lib64 /opt/kde3/lib64 /lib64 /lib /usr/lib64 /usr/lib /opt/cray/alps/default/lib64 /opt/cray/alpscomm/default/lib64 /opt/cray/alpscomm/default/lib64 /opt/cray/ccm/default/lib64 /opt/cray/ccm/default/lib64 /opt/cray/cdb/default/lib64 /opt/cray/codbc/default/lib64 /opt/cray/comm_msg/default/lib64 /opt/cray/configparse/default/lib64 /opt/cray/csa/default/lib64 /opt/nvidia/cudatoolkit/default/extras/CUPTI/lib64 /opt/nvidia/cudatoolkit/default/extras/CUPTI/lib /opt/nvidia/cudatoolkit/default/lib64 /opt/nvidia/cudatoolkit/default/lib /opt/nvidia/cudatoolkit/default/nvvm/lib64 /opt/nvidia/cudatoolkit/default/nvvm/lib /opt/cray/daemontools/default/lib64 /opt/cray/dmapp/default/lib64 @RUNTIME_PATH@ /opt/cray/dumpd/default/lib64 /opt/cray/job/default/lib64 /opt/cray/job/default/lib64 /opt/cray/job/default/lib64 /opt/cray/llm/default/lib64 /opt/cray/lustre-cray_ari_s/default/lib64 /opt/cray/sdb/default/lib64 /opt/cray/msgsupport/default/lib64 /opt/cray/msgsupport/default/lib64 /opt/cray/MySQL/default/lib64 /opt/cray/MySQL/default/lib64 /opt/cray/nodehealth/default/lib64 /opt/cray/nodeservices/default/lib64 /opt/cray/nvidia/default/lib64 /opt/cray/shared-root/default/lib64 /opt/cray/lib64 /opt/cray/lib64/cce /opt/cray/pmi/default/lib64 /opt/cray/projdb/default/lib64 /opt/cray/rca/default/lib64 /opt/cray/sdb/default/lib64 /opt/cray/socketauth/default/lib64 /opt/cray/sysadmin/default/lib64 /opt/cray/swrap/default/lib64 /opt/cray/sysadm/default/lib64 /opt/cray/sysadmin/default/lib64 /opt/cray/sysutils/default/lib64 /opt/cray/udreg/default/lib64 /opt/cray/ugni/default/lib64 /opt/cray/wlm_detect/default/lib64 /opt/cray/wlm_trans/default/lib64 /opt/cray/xpmem/default/lib64 /usr/lib64/ghostscript/Omni 
 configure:11465: checking for library containing dlopen
 configure:11506: gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/cczriM8o.o: In function `main':
+/tmp/cczO0BpB.o: In function `main':
 /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/build-module-130701/libltdl/conftest.c:36: undefined reference to `dlopen'
 collect2: error: ld returned 1 exit status
 configure:11513: $? = 1
@@ -1085,7 +1087,7 @@ configure:13068: $? = 0
 configure:13090: result: yes
 configure:13113: checking for strlcat
 configure:13169: gcc -o conftest -g -O2   conftest.c -ldl  >&5
-/tmp/ccTAinDE.o: In function `main':
+/tmp/ccReIJ3U.o: In function `main':
 /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/build-module-130701/libltdl/conftest.c:78: undefined reference to `strlcat'
 collect2: error: ld returned 1 exit status
 configure:13176: $? = 1
@@ -1174,7 +1176,7 @@ configure: failed program was:
 configure:13198: result: no
 configure:13113: checking for strlcpy
 configure:13169: gcc -o conftest -g -O2   conftest.c -ldl  >&5
-/tmp/cchBOzFL.o: In function `main':
+/tmp/ccoY2mB9.o: In function `main':
 /cfs/milner/scratch/b/berthet/modules/bcpnndopa_module/build-module-130701/libltdl/conftest.c:78: undefined reference to `strlcpy'
 collect2: error: ld returned 1 exit status
 configure:13176: $? = 1
